@@ -1,0 +1,157 @@
+
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color:#11999E;
+}
+
+p{
+  font-weight: normal;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size:5.625rem; /*=90px*/
+  font-family: 'Sacramento', cursive;
+   color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.5rem; /*=40px*/
+  color:#66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+hr{
+  height:0;
+  border-style: dotted none none;
+  border-width: 10px;
+  width:10%;
+  border-color: grey;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  text-shadow: 6px 3px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+}
+
+.contact-me{
+  margin-bottom: 30px;
+}
+
+.css{
+  width:25%;
+  float:left; /*if you want to clear a float for text to NOT wrap, then create a class for the text and in CSS add the "clear" property (then add ":left" or "right")*/
+  margin-right:30px;
+}
+
+.footer-link{
+  margin: 30px;
+  text-decoration: none;
+}
+
+.timeline{
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+}
+
+.sun{
+  position:relative;
+  margin:0 auto;
+  height:150px;
+  width:150px;
+}
+
+.top_container{
+  background-color:#deecff;
+  position:relative;
+  padding-top:100px;
+
+}
+
+.profile_pic{
+  border-radius:50%;
+  height:200px;
+  width:200px;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 30px;
+}
+
+.top-clouds{
+  height:150px;
+  width:150px;
+  padding:0;
+  margin:0;
+  position:absolute;
+  right:100px;
+  top:50px;
+}
+.bottom-clouds{
+  height:150px;
+  width:150px;
+  padding:0;
+  margin:0;
+  position:absolute;
+  top:100px;
+  left:200px;
+}
+
+.mountain{
+  height:200px;
+}
